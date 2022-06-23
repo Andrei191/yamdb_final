@@ -4,7 +4,7 @@ from rest_framework import routers
 from .views import (CategoryViewSet, CommentViewSet,  # isort:skip
                     GenreViewSet,  # isort:skip
                     ReviewViewSet, TitleViewSet,
-                    registration, CustomAuthToken)  #  isort:skip
+                    registration, CustomAuthToken)  # isort:skip
 from users.views import UserViewSet  # isort:skip
 
 router = routers.DefaultRouter()
